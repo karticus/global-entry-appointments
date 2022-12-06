@@ -1,0 +1,27 @@
+{
+  "name": "globalentry",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Scrap Global Entry scheduler to find appts at specific locations",
+  "main": "globalentry.js",
+  "scripts": {
+    "start": "npx node globalentry.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karticus/global-entry-appointments.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karticus/global-entry-appointments/issues"
+  },
+  "homepage": "https://github.com/karticus/global-entry-appointments#readme",
+  "dependencies": {
+    "cli-select": "^1.1.2",
+    "node-fetch": "^3.3.0",
+    "node-notifier": "^10.0.1",
+    "prompt": "^1.3.0",
+    "ramda": "^0.28.0"
+  }
+}
