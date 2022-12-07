@@ -7,10 +7,10 @@ import prompt from "prompt"
 const MINUTE = 60*1000
 
 // kinda trying to avoid obvious scraping...
-// wait for between 4 and 8 minutes (and any millisecond in between)
+// wait for a number of milliseconds between the intervals
 // before checking again
-const intervalStart = 4 * MINUTE
-const intervalEnd = 8 * MINUTE
+const intervalStart = 2 * MINUTE
+const intervalEnd = 4 * MINUTE
 const maxAppointments = 10
 
 const locationMap = {

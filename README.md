@@ -30,7 +30,10 @@ Just run it and watch for a notification(1) on your laptop.  The command will al
 ### Notes
 - Current it only supports SFO (because thats where I am looking) and Nogales, TX (because there are lots of appointments there and you can check the success path of the script)
 - Feel free to add more locations by watching the network calls when you click the location links [here](https://ttp.cbp.dhs.gov/schedulerui/schedule-interview/location?lang=en&vo=true&returnUrl=ttp-external&service=UP).  You need to grab the location id and add it to the map in `globalentry.js`
+- There's no lower limit on the date range.  It's just "now" until the date you specify.  Sorry.
+- Multiple locations would also be kinda neat, but no dice yet.  Sorry.
 - I will deny all responsibility for this crappy script if asked.
+
 
 
  (1) NB: I have done zero cross-platform validation of this notification methods.  Good luck if you're not on a Mac.
