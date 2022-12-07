@@ -74,10 +74,10 @@ async function checkForAppt(){
 function notifyAppts(apptTimes) {
   const notification = {
     title: `${apptTimes.length} appt[s] found at ${selectedLocation.value}!`,
-    message: R.join("\n", apptTimes),
+    message: R.join("\n", apptTimes) + `\n\n Go here to book it: https://ttp.cbp.dhs.gov/schedulerui/schedule-interview/location?lang=en&vo=true&returnUrl=ttp-external&service=UP`,
   }
   notifier.notify(notification);
-  console.log("Holy shit!", notification)
+  console.log("Holy shit!", notification.title,"\n", notification.message)
 }
 
 
