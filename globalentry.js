@@ -13,9 +13,11 @@ const intervalStart = 2 * MINUTE
 const intervalEnd = 4 * MINUTE
 const maxAppointments = 10
 
+// the ID numbers are important.
+// the readable strings are just for display and can be as descriptive as you like.
 const locationMap = {
   5446: "SFO" ,
-  5007: "Nogales", //always seem to be appts here.  good for testing the success path
+  5007: "Nogales, TX", //always seem to be appts here.  good for testing the success path
   // find more location IDs by watching the network calls when you click the location links here:
   // https://ttp.cbp.dhs.gov/schedulerui/schedule-interview/location?lang=en&vo=true&returnUrl=ttp-external&service=UP
 }
