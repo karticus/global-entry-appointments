@@ -9,8 +9,8 @@ const MINUTE = 60*1000
 // kinda trying to avoid obvious scraping...
 // wait for a number of milliseconds between the intervals
 // before checking again
-const intervalStart = 2 * MINUTE
-const intervalEnd = 4 * MINUTE
+const intervalStart = 1 * MINUTE
+const intervalEnd = 2 * MINUTE
 const maxAppointments = 10
 
 // the ID numbers are important.
@@ -18,6 +18,7 @@ const maxAppointments = 10
 const locationMap = {
   5446: "SFO" ,
   5007: "Nogales, TX", //always seem to be appts here.  good for testing the success path
+  7820: "Austin, TX",
   // find more location IDs by watching the network calls when you click the location links here:
   // https://ttp.cbp.dhs.gov/schedulerui/schedule-interview/location?lang=en&vo=true&returnUrl=ttp-external&service=UP
 }
